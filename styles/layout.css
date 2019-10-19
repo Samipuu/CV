@@ -1,0 +1,95 @@
+        @import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto&display=swap');
+
+body {
+    font-family: "Roboto", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Verdana", sans-serif;
+    margin: 0px;
+    font-size: 100%;
+    }
+main {
+    max-width: 90%;
+    margin: auto;
+    background-color: #D8CCAF;
+    
+    }
+header {
+    padding: 1em;
+    background-color: #575757;
+    color: #F0EBEB;
+    text-align: center;
+    font-size: 100%;
+    letter-spacing: 0.1875em;
+    font-family: 'Pacifico', cursive;
+    }
+nav, footer {
+    height: 1.55em;
+    background-color: #E49A2F;
+    color: #F7F5EE;
+    text-align: center;
+    width: 100%
+    }
+section {
+    background-color: #D8CCAF;
+    width: 100%;
+    
+    }
+article {
+    max-width: 40%;
+    background-color: #F7F5EE;
+    border: 1px solid #AC9675;
+    margin: 3.5%;
+    float: left;
+    padding: 2%;
+    border-radius: 2em;
+    }
+aside {
+    max-width: 40%;
+    background-color: #F7F5EE;
+    border: 1px solid #AC9675;
+    margin: 3.5% 3.5% 3.5% 0em;
+    overflow: hidden;
+    float: right;
+    padding: 2%;
+    border-radius: 2em;
+    }
+footer {
+    clear: both
+    }
+img {
+    width: 100%;
+    height: auto;
+    }
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    }
+
+li  {
+    text-align: center;
+    display: inline;
+    }
+ul.ura {
+    list-style-type: circle;
+    overflow: visible;
+    display: block;
+        }
+li.ura {
+    list-style-type: circle;
+    display: inline-block;
+}        
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 0 1.5em;
+    text-decoration: none;
+    }
+a:hover:not(.active) {
+    background-color: #998664;
+    }
+i {
+    padding: 0em 0.25em;
+}
+
